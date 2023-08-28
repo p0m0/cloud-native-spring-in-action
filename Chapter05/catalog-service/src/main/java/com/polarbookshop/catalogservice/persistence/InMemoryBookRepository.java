@@ -9,7 +9,7 @@ import com.polarbookshop.catalogservice.domain.BookRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public class InMemoryBookRepository implements BookRepository {
+public abstract class InMemoryBookRepository implements BookRepository {
     private static final Map<String, Book> books =
             new ConcurrentHashMap<>();
 
