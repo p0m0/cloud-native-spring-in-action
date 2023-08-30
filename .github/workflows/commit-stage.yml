@@ -3,7 +3,7 @@ on: push
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: polarbookshop/catalog-service
+  IMAGE_NAME: p0m0/catalog-service
   VERSION: latest
 
 jobs:
